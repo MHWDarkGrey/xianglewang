@@ -1208,6 +1208,9 @@ width: 78px;
 }
 .list span{
     color: #c3c3c3;
+    position: relative;
+    left: 15px;
+    padding-right: 5px;
 }
 .list strong{
 	color: #c75d61;
