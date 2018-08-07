@@ -48,9 +48,14 @@ body{
 	position: relative;
 	top:3px;
 	left:3px;
+	color:#999;
+}
+#header .city .active{
+	color: red;
 }
 #header .city ul li>a:hover{
    text-decoration: none;
+   color: red;
 }
 a{
    text-decoration: none;
@@ -68,12 +73,13 @@ a:hover{
 	float:right;
 	width:208px;
 	height:32px;
-	padding-top: 10px;
+	padding-top: 2px;
 	margin-right: 50px;
 }
-#header p{
-	color: black
+#people a{
+	color: black;
 }
+
 #nav{
 	width:960px;
 	height:80px;
@@ -172,10 +178,7 @@ a:hover{
     top: 47px;
 }
 #nav .l_nav a{
-	position: absolute;
-    top: 90px;
     text-align: center;
-    margin-left: 22px;
 }
 #nav li>a:hover{
 	text-decoration: none ;
@@ -291,14 +294,12 @@ a:hover{
 	font-size:12px;
 }
 #update p .par_up{
-	position: absolute;
-	top:0px;
-    left: 420px;
+    position: relative;
+    bottom: 8px;
+    left: 10px;
 }
 #update p .par_down{
-	position: absolute;
-	top:10px;
-	left: 420px;
+	
 
 }
 #update a:hover{
@@ -1208,6 +1209,7 @@ width: 78px;
 }
 .list span{
     color: #c3c3c3;
+    color: #c3c3c3;
     position: relative;
     left: 15px;
     padding-right: 5px;
@@ -1231,9 +1233,9 @@ width: 78px;
 	height: 140px
 }
 .n_league .box .information{
-    position: absolute;
-    top:70px;
-    left: 2px;
+    position: relative;
+    bottom: 73px;
+    left: 107px;
 }
 .n_league .box .box_2{
 	position: absolute;
